@@ -2,6 +2,8 @@
 
 Demonstrates the steps necessary to reproduce MySQL [Bug #86974](https://bugs.mysql.com/bug.php?id=86974).
 
+**NOTE: THIS BUG IS NOW FIXED AS OF v6.10.8 AND v8.0.13**
+
 ## Description
 
 When trying to create an instance of the MySqlGeometry class for an empty geometry collection, using the following constructor:
